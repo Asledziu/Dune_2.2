@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SonicTankOverrideController
+  m_Controller: {fileID: 9100000, guid: 4f28c54bfb24b3a489502c2758d6e46e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c43c4825dda0b834fbe07a3fb79dc0b8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8bef902edf17e0046927ec56d65ad832, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 61fa50bfb9208714dbea61db57431553, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8e2ed7d114803dd43ad1f3bb4ede1cfa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7be040c76950fd847abb6764289c4849, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7d1d9242128a24442b2b32e3cac8dc62, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bc459f3943a6900448e16eacce69679f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7d1d9242128a24442b2b32e3cac8dc62, type: 2}

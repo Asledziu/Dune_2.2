@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SmallTankOverrideAnimCtrl
+  m_Controller: {fileID: 9100000, guid: 4f28c54bfb24b3a489502c2758d6e46e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c43c4825dda0b834fbe07a3fb79dc0b8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0b2d71cdd5872234c88b24e3a5d311e6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bc459f3943a6900448e16eacce69679f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 45419f9a3844bc9489b5a5f368b0699b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 61fa50bfb9208714dbea61db57431553, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e89250eea8133d84eb77599e1dc8bf41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6de6cf5474149cd45b96c0190eec5a9e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0c868846b54907c439d1143b9603a16d, type: 2}
