@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e5dc1ecd6880849abdfa0c4ab4464e, type: 3}
+  m_Name: 2_MISSION_DESTROY_Super_computer
+  m_EditorClassIdentifier: 
+  code: scenario_2_outpost_code
+  _name: Destroy final outpost and Super Computer
+  description: Super computer initiated Autodestruct sequence, and  blocker our access
+    to harddrive we must stop him and  capture all information about SI
+  missions:
+  - code: Destroy_Radar_Node_A1
+    name: Destroy guards sphere
+    description: we must destroy Radar Node A1
+    icon: {fileID: 21300000, guid: 8444cccd4865d6449b6c0b0c05a3ab1a, type: 3}
+    type: 1
+    targetResource: {fileID: 0}
+    targetCode:
+    - type: 0
+      code:
+      - SPS_Radar_Node_A1
+    targetAmount: 1
+    timeCondition:
+      survivalTimeEnabled: 0
+      survivalTime: 600
+      timeLimitEnabled: 1
+      timeLimit: 600
+    defendFactionEntities: []
+    completeResources:
+    - Name: FactionPower
+      Amount: 1
+    - Name: crystal
+      Amount: 500
+    completeAudio:
+      fetchType: 0
+      audioClips:
+      - {fileID: 8300000, guid: 92ce17122a0a10e4b8343bcb005d228c, type: 3}
+    startEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    completeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    failEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - code: Destroy_Radar_Node_A2
+    name: Destroy guards sphere
+    description: we must destroy Radar Node A1
+    icon: {fileID: 21300000, guid: 8444cccd4865d6449b6c0b0c05a3ab1a, type: 3}
+    type: 1
+    targetResource: {fileID: 0}
+    targetCode:
+    - type: 0
+      code:
+      - SPS_Radar_Node_A2
+    targetAmount: 1
+    timeCondition:
+      survivalTimeEnabled: 0
+      survivalTime: 600
+      timeLimitEnabled: 1
+      timeLimit: 600
+    defendFactionEntities: []
+    completeResources:
+    - Name: FactionPower
+      Amount: 1
+    - Name: crystal
+      Amount: 500
+    completeAudio:
+      fetchType: 0
+      audioClips:
+      - {fileID: 8300000, guid: 92ce17122a0a10e4b8343bcb005d228c, type: 3}
+    startEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    completeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    failEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - code: Destroy Main CPU Reactor
+    name: Destroy main CPU this section
+    description: If we destroy that generator, we can call for reinforcement
+    icon: {fileID: 21300000, guid: 8444cccd4865d6449b6c0b0c05a3ab1a, type: 3}
+    type: 1
+    targetResource: {fileID: 0}
+    targetCode:
+    - type: 0
+      code:
+      - SPS_Radar_Node_A2
+    targetAmount: 1
+    timeCondition:
+      survivalTimeEnabled: 0
+      survivalTime: 600
+      timeLimitEnabled: 1
+      timeLimit: 3600
+    defendFactionEntities: []
+    completeResources: []
+    completeAudio:
+      fetchType: 0
+      audioClips:
+      - {fileID: 8300000, guid: 92ce17122a0a10e4b8343bcb005d228c, type: 3}
+    startEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    completeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    failEvent:
+      m_PersistentCalls:
+        m_Calls: []

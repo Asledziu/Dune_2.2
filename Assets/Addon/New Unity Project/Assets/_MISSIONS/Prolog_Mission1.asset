@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e5dc1ecd6880849abdfa0c4ab4464e, type: 3}
+  m_Name: Prolog_Mission1
+  m_EditorClassIdentifier: 
+  code: Prolog_1_code
+  _name: Gather fuel from planetoid
+  description: they send as to our first mission to secure process extraction
+  missions:
+  - code: Gather_Resources1_code
+    name: First_source_crystal
+    description: We need to gather resource neerest from base
+    icon: {fileID: 21300000, guid: be824174eb86932499a86f4a15e7fda5, type: 3}
+    type: 0
+    targetResource: {fileID: 11400000, guid: 8da58bec381a35147bb1b2dbf20acfcc, type: 2}
+    targetCode:
+    - type: 0
+      code:
+      - guardian_sphere_code
+    targetAmount: 200
+    timeCondition:
+      survivalTimeEnabled: 0
+      survivalTime: 0
+      timeLimitEnabled: 0
+      timeLimit: 300
+    defendFactionEntities: []
+    completeResources: []
+    completeAudio:
+      fetchType: 0
+      audioClips: []
+    startEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    completeEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000}
+          m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_MethodName: set_name
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Another source of Crystal
+            m_BoolArgument: 0
+          m_CallState: 2
+    failEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - code: Gather_Resources2_code
+    name: Another source of Crystal
+    description: 'Gather closest source of resources '
+    icon: {fileID: 21300000, guid: be824174eb86932499a86f4a15e7fda5, type: 3}
+    type: 0
+    targetResource: {fileID: 11400000, guid: 8da58bec381a35147bb1b2dbf20acfcc, type: 2}
+    targetCode:
+    - type: 0
+      code:
+      - guardian_sphere_code
+    targetAmount: 200
+    timeCondition:
+      survivalTimeEnabled: 0
+      survivalTime: 0
+      timeLimitEnabled: 0
+      timeLimit: 300
+    defendFactionEntities: []
+    completeResources: []
+    completeAudio:
+      fetchType: 0
+      audioClips: []
+    startEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    completeEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000}
+          m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_MethodName: set_name
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Last_source_crystal
+            m_BoolArgument: 0
+          m_CallState: 2
+    failEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - code: Gather_Resources3_code
+    name: Last_source_crystal
+    description: our Ally need some help with gathering resources
+    icon: {fileID: 21300000, guid: be824174eb86932499a86f4a15e7fda5, type: 3}
+    type: 0
+    targetResource: {fileID: 11400000, guid: 8da58bec381a35147bb1b2dbf20acfcc, type: 2}
+    targetCode:
+    - type: 0
+      code:
+      - guardian_sphere_code
+    targetAmount: 200
+    timeCondition:
+      survivalTimeEnabled: 0
+      survivalTime: 0
+      timeLimitEnabled: 0
+      timeLimit: 300
+    defendFactionEntities: []
+    completeResources: []
+    completeAudio:
+      fetchType: 0
+      audioClips: []
+    startEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    completeEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    failEvent:
+      m_PersistentCalls:
+        m_Calls: []
